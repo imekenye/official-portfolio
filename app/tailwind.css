@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'General Sans';
+ 
+    font-weight: 400;
+    src: url('/fonts/GeneralSans-Regular.woff2')format('woff2'); 
+}
+@font-face {
+    font-family: 'General Sans';
+
+    font-weight: 500;
+    src: url('/fonts/GeneralSans-Medium.woff2')format('woff2'); 
+}
+@font-face {
+    font-family: 'General Sans';
+
+    font-weight: 600;
+    src: url('/fonts/GeneralSans-SemiBold.woff2')format('woff2'); 
+}
+@font-face {
+    font-family: 'General Sans';
+
+    font-weight: 700;
+    src: url('/fonts/GeneralSans-Bold.woff2')format('woff2'); 
+}
+
+body {
+    font-family: 'General Sans', 'Helvetica', 'Arial', san-serif;
+    min-height: 100%!important;
+   
+  }
+
